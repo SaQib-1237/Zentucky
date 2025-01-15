@@ -1,0 +1,24 @@
+.bordr{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.clr{
+    background-color: #ffffff;
+}
+
+.typo{
+    color: #ffffff;
+}
+
+.front{
+    color: #E31E25;
+}
+
+.front-yellow{
+    color: #FFCC02;
+}
+
+.back-yellow{
+    background-color: #FFCC02;
+}

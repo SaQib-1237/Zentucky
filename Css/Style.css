@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.bg {
+    background-image: url("../Assetss/first-bg-pic.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#home{
+    margin-left: 50%;
+    background-color: #ffffff;
+    color: #E31E25;
+    padding: 40px 10px 10px 10px;
+    margin-bottom: 25px;
+}
+
+.logo-pic{
+    width: 200px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.logo img{
+    width: 80%;
+    height: 50%;
+    margin: 40px 10px;
+}
+
+.hero-sec{
+    margin-top: 40px ;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-sec img{
+    height: 90%;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.hero-contn{
+    width: 250px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.hero-contn p{
+    width: 150px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+.zentucy{
+    width: 240px;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.today{
+    display: flex;
+    justify-content: end;
+    font-size: 2.5rem;
+    font-weight: 00;
+    font-family: "Road Rage", serif;
+    line-height: 0;
+}
+
+.hero-contn button{
+    width: 100%;
+    height: 12%;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 90%;
+    margin: 20px 50px;
+    border-radius: 10px;
+    font-family: poppins;
+}
+
+.main-pic img{
+    height: 85%;
+    width: 450px;    
+}
+
+.main-contn{
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 50px 20px;
+}
+
+.main-contn h1{
+    font-family: "Road Rage", serif;
+    font-size: 3rem;
+}
+
+.fired-chicken{
+    background-image: url("../Assetss/Fried.png");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile img{
+    height: 150px;
+    width: 170px;
+}
+
+.fcontnt{
+    margin: 0 100px;
+}
+.downlode{
+    margin-top: 0px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.zen{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.img img{
+    height: 150px;
+    width: 150px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.heading{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.menu > a{
+    text-decoration: none;
+    background-color: #dddddd;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #888888;
+}
+
+#Start{
+    background-color: #E31E25;
+    color: white;
+    font-weight: 600;
+}
+
+.menu-item{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.items{
+    height: 90%;
+    width: 23%;
+    border-radius: 10px;
+    border: 2px solid #dddddd;
+    box-shadow: 0 0 0 0.10;
+}
+
+.card img{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+.item-contnt{
+    padding: 0 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+
+}
+
+.price button{
+    background-color: #E31E25;
+    color: #dddddd;
+    font-weight: 700;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero2{
+    background-image: url("../Assetss/2ndlast.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.mainc{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    line-height: 25px;
+    width:500px;
+    height: 140px;
+    padding-left: 50px;   
+}
+
+.text2{
+    border-radius: 15px;
+    color: #000000;
+    width: 500px;
+    margin: 150px 250px;
+    font-size: 0.85rem;
+    padding: 20px;   
+}
+
+.hero2 h3{
+    text-align: center;
+    padding-top: 30px;
+}
+.pic-box{
+    width: 100px;
+    height: 100px;
+}
+
+.pic img{
+    margin-top: 10px;
+    margin-left: 150%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.timing{
+    background-image: url("../Assetss/last.png");
+    background-size: cover;
+    width: 85%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 20px 8.5%;
+    border-radius: 10px;
+}
+
+.foot-contnt{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo {
+    height: 150px;
+    width: 250px;
+}
+
+.foot-contnt p{
+    width: 270px;
+    font-size: 0.65rem;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.flogo{
+    width: 100%;
+    height: 50%;
+    background-image: url("../Assetss/Zentucky\ Logo\ 1.png");
+    background-size: cover;
+}
+
+.link{
+    width: 140px;
+    margin-left: 80px
+}
+
+.link a{
+    font-size: 0.65rem;
+    line-height: 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.65rem;
+    font-weight: 500;
+}
